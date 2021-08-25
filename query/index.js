@@ -40,7 +40,7 @@ app.post('/events', (req, res) => {
     comment.status = status;
     comment.content = content;
   }
-  console.log(posts);
+  // console.log(posts);
 
   res.send({});
 });
