@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-function PostCreate() {
+const PostCreate = () => {
   const [title, setTitle] = useState('');
 
   const onSubmit = async (event) => {
@@ -29,6 +29,5 @@ function PostCreate() {
       </form>
     </div>
   );
-}
-
+};
 export default PostCreate;
